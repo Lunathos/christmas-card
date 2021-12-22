@@ -116,7 +116,7 @@ main.cards section.card.back-content {
     display: flex;
     flex-direction: column;
 
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     text-align: center;
     border: 3px dashed #fff;
