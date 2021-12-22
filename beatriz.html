@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="card.css">
+
+    <title>Christmas Card</title>
+</head>
+
+<body>
+    <main class="cards">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+
+        <div class="flipper">
+            <div class="front">
+                <!-- Contéudo Frente -->
+                <section class="card front-content">
+                    <div class="icon" style="height: auto;">
+                        <span>
+                        </span>
+                        <img src="img/beatles_sticker.png" alt="" style="height: 64px; width: 128px;">
+                    </div>
+                    <div >
+                        <h3 class="text-front">Feliz Natal!</h3>
+                    </div>
+                </section>
+                    
+            </div>
+
+            <div class="back">
+                <!-- Conteúdo de Trás -->
+                <section class="card back-content" oncontextmenu="return false" onselectstart='return false' ondragstart='return false'>
+                    <div class="icon-back">
+
+                        <img src="img/profile/beatriz.jpg" alt="">
+                    </div>
+                    <h3 class="text-back">Hey Bia!</h3>
+                    <div >
+                        <p class="text-verso">"As palavras que transmitem conhecimento são mais valiosas que grandes quantidades de ouro e rubis."</p>
+                        <p class="text-msg" style="padding-top: 0">Merry Christmas & Happy New Year com a Graça de Deus!
+
+                            Biazinha, hehe, lhe admiro pelo seu empenho na área acadêmica (Quando sai o PHD? hehe), que Deus lhe abençoe com inteligência e sabedoria, e que suas palavras venham transmitir mais que o conhecimento científico, as Palavras da Vida Eterna.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+    </div>
+    </main>
+
+</body>
+
+</html>

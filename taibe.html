@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="card.css">
+
+    <title>Christmas Card</title>
+</head>
+
+<body>
+    <main class="cards">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+
+        <div class="flipper">
+            <div class="front">
+                <!-- Contéudo Frente -->
+                <section class="card front-content">
+                    <div class="icon" style="margin-bottom: 64px;">
+                        <span>
+                        </span>
+                        <img src="img/guitar_sticker.png" alt="">
+                    </div>
+                    <div >
+                        <h3 class="text-front">Feliz Natal!</h3>
+                    </div>
+                </section>
+                    
+            </div>
+
+            <div class="back">
+                <!-- Conteúdo de Trás -->
+                <section class="card back-content" oncontextmenu="return false" onselectstart='return false' ondragstart='return false'>
+                    <div class="icon-back">
+
+                        <img src="img/profile/taibe.jpg" alt="">
+                    </div>
+                    <h3 class="text-back">Fala Paíbe!</h3>
+                    <div >
+                        <p class="text-verso">"O conselho sincero de um amigo é agradável como perfume e incenso."</p>
+                        <p class="text-msg">Te desejo um Feliz Natal e Ano Novo com a Graça de Deus.
+
+                            Agradeço a Deus por sua vida, pelos inúmeros conselhos com paciência que tens me dado, como um pai mesmo hehe. Que Deus lhe abençoe sempre TaíbX! </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+    </div>
+    </main>
+
+</body>
+
+</html>
